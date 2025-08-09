@@ -1,1 +1,9 @@
 ---
+name: PlayBook Maestro de Programas Producto
+  hosts: all
+  gather_facts: true
+  #strategy: linear
+
+  tasks:
+    - include_role:
+        name: role_sandbox_dev
