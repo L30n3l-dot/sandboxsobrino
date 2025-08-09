@@ -15,4 +15,4 @@
 - name: Resultado de la validacion del archivo_vacio
   debug:
     msg: "El archivo existe en la ruta" 
-  when: existe_archivo.state.exists
+  when: existe_archivo.stat.exists
