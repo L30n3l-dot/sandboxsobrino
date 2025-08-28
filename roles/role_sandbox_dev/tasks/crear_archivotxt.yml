@@ -1,0 +1,4 @@
+- name: Crear un archivo vacío
+      <<!nav>>file<<!/nav>>:
+        path: /Escritorio/demo_carpeta/archivo_vacio.txt
+        state: touch
